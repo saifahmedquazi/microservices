@@ -1,0 +1,38 @@
+<html>
+<body style="background-color:black;">
+<form method="POST">
+  <style>
+    h1 {text-align: center;color: whitesmoke;}
+    p {text-align: center;color: whitesmoke;}
+    div {text-align: center;color: whitesmoke;}
+    
+    </style>
+
+<h1>
+  <img src="https://www.dl.dropboxusercontent.com/s/7px71b26ttacqv7/deqode.jpg?dl=0" 
+     width="900" 
+     height="150" />
+</h1>
+<p>This app is created by faizan quazi </p>
+<p>type any command and press execute ill return the output by executeing it </p>
+<p>inside of linux  environment </p>
+
+<h1>
+  <input name="text">
+  
+  <input type="submit" value="EXECUTE NOW">
+
+  </h1>
+
+</h1>
+
+<p>hey Deqoder ,By the way last executed command was </p>
+{% autoescape off %}
+{{ data }}
+{% endautoescape %}
+
+
+
+</form>
+<html>
+ 
